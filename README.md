@@ -9,7 +9,7 @@ Follow the steps to setup a mysql database in local
 - Run the following command to start database ```docker-compose  up --build --force-recreate --renew-anon-volumes db```
 
 **Task 2 :**
-You can use any python server framwork to implemt a simple web server with the following routes (using the database in task 1)
+You can use any *python* server framwork to implement a simple web server with the following routes (using the database in task 1)
 - Route 1 - list customers with able to search by first name, last name and order by credit limit
 - Route 2 - list employees with able to search by first name, last name and order by last name
 - Route 3 - list orders with able to search by customer first name, last name and order by order date or customer last name
