@@ -6,7 +6,7 @@ Backend engineer interview test for LCJG and you need to finish it within 24 hou
 Follow the steps to setup a mysql database in local
 - Install docker desktop and docker-compose (https://www.docker.com/products/docker-desktop)
 - Download the [database.zip](https://raw.githubusercontent.com/ayking/LCJG-Backend-Engineer-Test/master/database.zip)
-- Run the following command to start database ```docker-compose  up --build --force-recreate --renew-anon-volumes db```
+- Run the following command inside the folder to start database ```docker-compose  up --build --force-recreate --renew-anon-volumes db```
 
 **Task 2 :**
 You can use any *python* server framwork to implement a simple web server with the following routes (using the database in task 1)
